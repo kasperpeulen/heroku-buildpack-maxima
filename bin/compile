@@ -1,1 +1,4 @@
-sudo apt-get maxima
+#!/usr/bin/env bash
+# bin/compile <build-dir> <cache-dir> <env-dir>
+
+sudo apt-get install maxima
