@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
 # bin/compile <build-dir> <cache-dir> <env-dir>
 
-apt-get install maxima
+gunzip ~/.apt/usr/share/info/imaxima.info.gz
+gunzip ~/.apt/usr/share/info/maxima.info-1.gz
+gunzip ~/.apt/usr/share/info/maxima.info-2.gz
+gunzip ~/.apt/usr/share/info/maxima.info-3.gz
+gunzip ~/.apt/usr/share/info/maxima.info.gz
+gunzip ~/.apt/usr/share/info/xmaxima.info.gz
